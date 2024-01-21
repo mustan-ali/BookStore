@@ -14,4 +14,16 @@ router.post('/', controller.createBook)
 //Description: Get all books
 router.get('/', controller.getBooks)
 
+
+//Method: GET
+//Route: /:id
+//Description: Get a book by id
+router.get('/:id', controller.getBookById)
+
+
+//Method: PUT
+//Route: /:id
+//Description: Update a book
+router.put('/:id', controller.updateBook)
+
 module.exports = router
