@@ -26,4 +26,11 @@ router.get('/:id', controller.getBookById)
 //Description: Update a book
 router.put('/:id', controller.updateBook)
 
+
+//Method: DELETE
+//Route: /:id
+//Description: Delete a book
+router.delete('/:id', controller.deleteBook)
+
+
 module.exports = router
