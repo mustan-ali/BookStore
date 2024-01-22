@@ -9,7 +9,7 @@ export default function ShowBook() {
 
     useEffect(() => {
         const getBooks = async () => {
-            const res = await fetch(`http://localhost:${process.env.REACT_APP_BACKEND_PORT}/${id}`)
+            const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/${id}`)
             const data = await res.json()
 
             if (data) {

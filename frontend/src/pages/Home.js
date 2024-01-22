@@ -10,7 +10,7 @@ export default function Home() {
 
     useEffect(() => {
         const getBooks = async () => {
-            const res = await fetch(`http://localhost:${process.env.REACT_APP_BACKEND_PORT}/`)
+            const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/`)
             const data = await res.json()
 
             if (data) {

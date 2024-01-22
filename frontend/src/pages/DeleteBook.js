@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import BackButton from '../components/BackButton'
 import { useNavigate, useParams } from 'react-router-dom'
 
@@ -9,7 +8,7 @@ export default function DeleteBook() {
 
     const handleDeleteBook = async () => {
 
-        const res = await fetch(`http://localhost:${process.env.REACT_APP_BACKEND_PORT}/${id}`, {
+        const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/${id}`, {
             method: 'DELETE',
         })
         const json = await res.json()

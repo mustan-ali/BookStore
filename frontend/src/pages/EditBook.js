@@ -12,7 +12,7 @@ export default function EditBook() {
 
     useEffect(() => {
         const getBook = async () => {
-            const res = await fetch(`http://localhost:${process.env.REACT_APP_BACKEND_PORT}/${id}`)
+            const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/${id}`)
             const data = await res.json()
 
             if (data) {
@@ -27,7 +27,7 @@ export default function EditBook() {
     const handleEditBook = async () => {
         const data = { title, author, publishYear }
 
-        const res = await fetch(`http://localhost:${process.env.REACT_APP_BACKEND_PORT}/${id}`, {
+        const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/${id}`, {
             method: 'PUT',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(data)
