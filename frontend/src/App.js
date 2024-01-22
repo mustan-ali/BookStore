@@ -1,9 +1,9 @@
-import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import ShowBook from "./pages/ShowBook";
-import CreateBook from "./pages/CreateBook";
-import EditBook from "./pages/EditBook";
-import DeleteBook from "./pages/DeleteBook";
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
+import ShowBook from "./pages/ShowBook"
+import CreateBook from "./pages/CreateBook"
+import EditBook from "./pages/EditBook"
+import DeleteBook from "./pages/DeleteBook"
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       </Routes>
 
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
