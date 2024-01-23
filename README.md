@@ -23,3 +23,13 @@ In the root folder of the project, run the following command:
 
 ```bash
 npm start
+```
+
+<details>
+<summary><h2>Screenshot</h2></summary>
+<img src='./screenshot/HomePage.png' title="Home Page" /><br>
+<img src='./screenshot/AddBook.png' title="Add Book" /><br>
+<img src='./screenshot/ShowDetail.png' title="Book Details" /><br>
+<img src='./screenshot/EditBook.png' title="Edit Book" /><br>
+<img src='./screenshot/DeleteBook.png' title="Delete Book" />
+</details>
