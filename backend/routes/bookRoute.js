@@ -33,4 +33,12 @@ router.put('/:id', controller.updateBook)
 router.delete('/:id', controller.deleteBook)
 
 
+//Method: GET
+//Route: *
+//Description: Redirect to /
+router.get('*', (req, res) => {
+    res.redirect('/')
+})
+
+
 module.exports = router
