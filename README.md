@@ -24,9 +24,9 @@ In the root folder of the project, run the following command:
 ```bash
 npm start
 ```
-
+---
 <details>
-<summary><h2>Screenshot</h2></summary>
+<summary><b>Screenshot</b></summary>
 <img src='./screenshot/HomePage.png' title="Home Page" /><br>
 <img src='./screenshot/AddBook.png' title="Add Book" /><br>
 <img src='./screenshot/ShowDetail.png' title="Book Details" /><br>
